@@ -17,6 +17,6 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
-      - uses: k21993/hookcompat@be1cd5d3b90fd8e98a42cf7ff97a0f4c11616861 # v0.2.0
+      - uses: k21993/hookcompat@4b03566105553a3862156c52f7484ac78a7a4c4f
         with:
           config: hookcompat.yml
